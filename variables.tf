@@ -7,7 +7,6 @@ variable "compartment_ocid" {}
 variable "fingerprint" {
   default = "32:25:ec:86:12:e1:62:a2:4f:9e:de:b6:a0:a9:08:64"
 }
-variable "private_key_path" {}
 variable "region" {}
 variable "availability_domain_name" {
   default = ""
