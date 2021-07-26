@@ -1,8 +1,12 @@
 # All variables
 variable "tenancy_ocid" {}
-variable "user_ocid" {}
+variable "user_ocid" {
+  default = "ocid1.user.oc1..aaaaaaaavilbyzfyqbghmp72e74nneycodvchprw2psw4h3e2wamhneg56rq"
+}
 variable "compartment_ocid" {}
-variable "fingerprint" {}
+variable "fingerprint" {
+  default = "32:25:ec:86:12:e1:62:a2:4f:9e:de:b6:a0:a9:08:64"
+}
 variable "private_key_path" {}
 variable "region" {}
 variable "availability_domain_name" {
